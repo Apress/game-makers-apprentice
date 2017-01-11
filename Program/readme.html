@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>Game Maker</title>
+</head>
+
+<body>
+<h1><i>GAME MAKER</i> version 6.1A</h1>
+
+Writing computer games normally is a lot of work
+and requires skill in programming. So wouldn't it
+be nice if you could make your own games in an
+easy way? <i>Game Maker</i> was written to do just that.
+It allows you to make all sorts of 2-dimensional
+games using some simple clicking and drag-and-drop
+with your mouse. But even though it is simple to use,
+<i>Game Maker</i> allows you to make appealing games, with
+animated graphics, backgrounds, sounds, etc. And
+with its built-in programming language the
+possibilities are infinite.
+
+<p>
+<i>Game Maker</i> comes with a collection of freeware
+images and sounds to get you started. Also there
+are a number of example games, in particular
+versions of popular games like Pacman and 1945.
+
+<h2>System Requirements</h2>
+
+A modern PC (Pentium or higher) running Windows 98SE,
+ME, 2000, or XP is required. After installation
+the program uses about 5 MB disk space. The program 
+requires at least 65000 colors (high color, 16-bit).
+It requires at least 800x600 screen resolution.
+A 3D graphics card compatible with DirectX 8 or
+higher and  with at least 16 MB of video
+memory is required (preferable 32 MB). 
+Also a DirectX 8 compatible sound card is required.
+Make sure all graphics and sound card drivers
+are up to date. DirectX 8 or higher is 
+required (not included). If your machine
+does not have it installed you can download the most recent version at the 
+<A HREF="http://www.microsoft.com/downloads/search.aspx?displaylang=en&categoryid=2" target="_blank">Microsoft DirectX page</A>.
+
+<h2>Installing the program</h2>
+
+To install <i>Game Maker</i> simply run gmaker_inst.exe. 
+Installation creates an entry in the Start menu from 
+which you can run the program or read the documentation. 
+You can uninstall the program in the Configuation panel.
+
+
+<h2>Using and distributing the program</h2>
+
+<i>Game Maker</i> cannot be distributed without a prior
+agreement with the creator. See the enclosed 
+<A HREF="license.html">license agreement</A>
+for information on distributing the games you 
+create with <i>Game Maker</i>.
+
+<h2>Registration</h2>
+
+Developing <i>Game Maker</i> does cost time and money.
+You are strongly encouraged to register the
+program. Registration will unlock a number
+of additional features and remove pop-up messages.
+See the item Registration in the Help
+menu for details.
+
+<h2>Contents</h2>
+
+After installation you should have the following files
+in the directory <tt>C:\Program Files\Game_Maker6</tt>
+
+<p>
+<blockquote>
+<pre>
+Game_Maker.exe    the Game Maker
+rundata           a file used for creating stand-alone games
+dxdata            a file needed to run the games
+gm_readme.html    this file
+gm_license.html   license information
+gm_changes.html   changes with the previous versions
+Game_Maker.chm    game maker help file
+fnames            file containing function names
+lib               folder that contains the action libraries
+Examples          folder that contains some example games
+Sprites           folder containing freeware sprites
+Backgrounds       folder containing freeware backgrounds
+Sounds            folder containing freeware sounds
+</pre>
+</blockquote>
+
+<h2>More Information</h2>
+
+For more information, the most recent version of 
+<i>Game Maker</i>, and additional games, see the web site
+<a HREF="http://www.gamemaker.nl">www.gamemaker.nl</a>.
+
+<h1>Troubleshooting</h1>
+
+<P>
+This section provides solutions for some problems that you might
+encounter when installing or running <i>Game Maker</i>.
+
+<h2>General Issues</h2>
+
+<P>
+<B>When I start <I>Game Maker</I> it indicates that it cannot locate the library folder?</B><BR>
+
+Action libraries must be stores in a folder called lib in the <I>Game Maker</I> folder. 
+Make sure all files ending in .lib are in a folder lib in the Game Maker folder. 
+Also make sure you run the program from its main location.
+(You can make a shortcut to it but don't copy the program to a different location.) 
+You might want to remove the program (and previous version of it) and reinstall it.
+
+<P>
+<B>When I create an object no actions are shown?</B><BR>
+
+This is cause by the same problem as above.
+
+<P>
+<B>When running a game or creating a stand-alone executable the program 
+complains that it cannot find the rundata file?</B><BR>
+
+The file rundata must be in the <I>Game Maker</I> folder. If it is not there you did 
+something strange when installing the program. For example, you might have copied 
+the program to a different location, rather than making a shortcut. 
+You might want to remove the program (and previous version of it) and reinstall it.
+
+<P>
+<B>When running a game the program complains that it cannot save the game
+information.</B><BR>
+
+<I>Game Maker</I> saves the game in a temporary folder. It takes the correct 
+place from the environment variables that indicate the temp folder. If these 
+are pointing to a place where you don't have write permission
+this error can occur. Make sure they point to the correct place. 
+A final reason might be that your disk is full or you are over your disk quotum.
+
+<P>
+<B>When creating a stand-alone executable the program complains 
+that it cannot save the game information.</B><BR>
+
+You are trying to save the game data at a place where you don't have write permission. 
+This is for example caused when you edit games directly from the CD and try to save the
+game in the default location. Try saving some place else. A final reason might be \
+that your disk is full or you are over your disk quotum.
+
+<P>
+<B>When starting the room editor only three tabs are shown and I cannot use tiles or views.</B><BR>
+
+You are running <I>Game Maker</I> in simple mode. Go to the file menu and select Advanced mode.
+
+
+<h2>Graphics Issues</h2>
+
+<P>
+<B>A game you run complains about not being able to use Direct3D.</B><BR>
+
+Game Maker requires a 3D graphics card with preferably at least 16 MB of video memory. Also it
+requires DirectX version 8.0 or later to be installed on your computer. Make sure you have a recent version
+of DirectX. (You can download it at the
+<A HREF="http://www.microsoft.com/downloads/search.aspx?displaylang=en&categoryid=2"  target="_blank">Microsoft DirectX page</A>.) If the problem is still there you are recommended to update your graphics card drivers.
+If that does not help, your card most likely is not up to it. In this case the best option is to buy a new graphics card (even the cheapest currently available card will do). Alternatively you can use the older version 5.3 of
+<i>Game Maker</i> You can download this version from the <a HREF="http://www.gamemaker.nl/old.html">Old Versions Page</a>.
+
+<P>
+<B>A game you run complains about a missing DLL (most likely D3DX8.DLL).</B><BR>
+
+This means that DirectX version 8.0 or later is not correctly installed on your computer. 
+You can download the most recent version at 
+<A HREF="http://www.microsoft.com/downloads/search.aspx?displaylang=en&categoryid=2"  class="tekst" target="_blank">Microsoft DirectX page</A>.
+
+<P>
+<B>A game you run complains that is cannot create drawing surfaces.</B><BR>
+
+This means that your graphics card does not satisfy the specs. You can try to reduce the screen resolution
+and set the colordepth to 16-bits to save memory and check again. Also you might want to
+install the most recent graphics card drivers and DirectX version. Otherwise, you will need a better graphics card.
+
+
+<h2>Sound Issues</h2>
+
+<P>
+<B>A game you run crashes near to the end of loading the game.</B><BR>
+
+This is normally due to the fact that the sound card drivers for you sound card are not
+up to date. Try to get the most recent drivers. Also get the most recent graphics card
+drivers as these might also cause the problem.
+
+<P>
+<B>No sound is heard.</B><BR>
+
+This is normally caused by the same issues as in the previous problem. Update your drivers. If only the
+mp3 files are not playing, you can use midi files for the background music instead. For all games we
+provided such files as well.
+
+</body>
+</html>
